@@ -31,7 +31,7 @@ struct ContentView : View {
           Text(pokemon.name)
           Text(pokemon.type).foregroundColor(pokemon.color)
         }
-        }
+      }
         .navigationBarTitle(Text("Pokemon"))
         .navigationBarItems(
           trailing: Button(action: addPokemon, label: { Text("Add") })
